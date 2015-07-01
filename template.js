@@ -1,7 +1,9 @@
 'use strict';
 
+// Short project description
 exports.description = "A general web app project";
 
+// Longer instructions at start of git-init command
 exports.after = 'You should now install project dependencies with _npm ' +
 					'install_. After that, you may execute project tasks with _grunt_.';
 
@@ -31,6 +33,7 @@ exports.template = function(grunt, init, done) {
 		// Grunt init doesn't copy empty dirs, do it here
 		grunt.file.mkdir('assets/img');
 		
+		// Write package.json file
 		init.writePackageJSON('package.json', {
 			name: props.name,
 			description: props.description,
