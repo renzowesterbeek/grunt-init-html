@@ -1,13 +1,9 @@
-# Renzo's Grunt HTML Template
-
-Grunt template and foundation for general HTML / SCSS / JavaScript projects.
-
-## Usage
+# Usage
 1. Create new project folder `mkdir PROJECTNAME`
 2. Run template `grunt-init /Volumes/Data/Developer/Templates/HTMLTemplate`
 3. Start developing!
 
-## Overview
+# Overview
 Used tools: [SASS/SCSS](http://sass-lang.com), [Grunt](http://grunjs.com), [Bootstrap](http://getbootstrap.com)
 
 - All files copied to target project folder are in the `root` folder
