@@ -1,4 +1,4 @@
-# Renzo's HTML Template (Grunt)
+# Renzo's Grunt HTML Template
 
 Grunt template for general HTML / SCSS / JavaScript projects. Let's me start projects much quicker. 
 
